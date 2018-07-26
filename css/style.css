@@ -1,12 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
-
+*{
+	color: white;
+}
 body{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
 }
 .jumbotron{
-	color: white;
-	background-image: url(../images/IMG_0242.JPG);
+	background-image: url(../images/head.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0;
+}
+section{
+	border-bottom: solid;
+	border-color: red;
+	background-color: black;
+	padding-top: 25px;
 }
