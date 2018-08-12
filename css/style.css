@@ -13,15 +13,28 @@ body{
 	background-size: cover;
 	margin: 0;
 }
-section{
-	border-bottom: solid;
-	border-color: red;
-	padding-top: 25px;
-}
 .card li{
 	list-style-type: none;
 }
 footer{
 	color: black;
 	margin: 0;
+	float: right;
+}
+#profile{
+	background-image: url(../images/profile_header.jpg);
+}
+#philosophy{
+	background-image: url(../images/philosophy_header.jpg);
+}
+#creator{
+	background-image: url(../images/DSC00990.jpg);
+}
+#worker{
+	background-image: url(../images/DSC00030.jpg)
+}
+section{
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 25px;
 }
