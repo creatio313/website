@@ -37,3 +37,15 @@ section{
 	background-size: cover;
 	padding-top: 25px;
 }
+input{
+	color: black;
+}
+option{
+	color: black;
+}
+select{
+	color: black;
+}
+textarea{
+	color: black;
+}
