@@ -18,9 +18,9 @@
 	<meta property="og:locale" content="ja_JP">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="八代翔公式HP">
-	<meta property="og:url" content="http://creatio313.info">
+	<meta property="og:url" content="https://creatio313.info">
 	<meta property="og:description" content="東京都出身のクリエイター、八代翔の公式HPです。多岐にわたる活動を紹介しています。">
-	<meta property="og:image" content="http://creatio313.info/images/profile.jpg">
+	<meta property="og:image" content="https://creatio313.info/images/profile.jpg">
 	<meta property="og:image:width" content="200">
 	<meta property="og:image:height" content="200">
 	<meta property="fb:app_id" content="438236603353983">
@@ -247,14 +247,33 @@
 	  <section id="contact">
 		  <div class="container">
 			  <div class="row">
-				  <div class="col-md-6">
+		  		<div class="col-12">
+				<h3>Contact</h3>
+				  <form id="mail" action="form.php" method="post">
+					<input type="text" name="Name" class="form-control" placeholder="きのこ太郎" required><br>
+					<input type="email" name="Mail" class="form-control" placeholder="kinokonoyama@saikou.com" required><br>
+					<input type="tel" name="Tel" class="form-control" placeholder="09012345678"><br>
+					<select name="Question" class="custom-select">
+						<option>プロフィールについて</option>
+						<option>哲学・思想について</option>
+						<option>創作活動について</option>
+						<option>業務依頼</option>
+						<option>その他</option>
+				    </select><br>
+					<textarea name="Naiyou" class="form-control" rows="10"></textarea><br>
+					<button type="submit" class="btn btn-light">送信</button>
+		    		</form>
+			  	</div>
+			  </div>
+				<div class="row">
+				  <div class="col-sm-12 col-md-6">
 					<a class="twitter-timeline" data-lang="ja" data-height="500" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/creatio313?ref_src=twsrc%5Etfw">Tweets by creatio313</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
 				  </div>
 				  <div class="col">
 					<div class="g-person" data-href="//plus.google.com/u/0/107722450625237969381" data-theme="dark" data-showtagline="false" data-rel="author"></div>
 				  </div>
-			  </div>
-		  </div>
+			  	</div>
+		  		</div>
 	  </section>
 	<footer>
 		<p><small>&copy; Studio-seginus</small></p>
