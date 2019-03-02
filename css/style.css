@@ -6,6 +6,7 @@
 body{
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
 	background-color: black;
+	display: none;
 }
 .jumbotron{
 	background-image: url(../images/head.jpg);
@@ -36,6 +37,9 @@ section{
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 25px;
+}
+.row{
+	padding-bottom:20px;
 }
 option{
 	color: black;
